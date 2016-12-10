@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/stefuhnee/wasted#readme",
   "dependencies": {
-    "bluebird": "^3.4.6"
+    "bluebird": "^3.4.6",
+    "chalk": "^1.1.3"
   }
 }
