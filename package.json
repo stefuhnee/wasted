@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/stefuhnee/wasted/issues"
   },
-  "homepage": "https://github.com/stefuhnee/wasted#readme"
+  "homepage": "https://github.com/stefuhnee/wasted#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6"
+  }
 }
