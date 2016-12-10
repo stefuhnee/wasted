@@ -4,4 +4,4 @@ const filePath = process.argv[2] && !process.argv[2].startsWith('-') ? process.a
 
 const args = filePath === __dirname ? process.argv.slice(2) : process.argv.slice(3);
 
-require('./lib/file-finder').getFiles(filePath, args);
+require('./lib/file-finder')(filePath, args);
