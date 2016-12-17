@@ -1,10 +1,9 @@
 'use strict';
 
-const chai = require('chai');
 const expect = require('chai').expect;
 const sortDesc = require('../lib/sort-descending');
 
-describe('testing sort-descending', function() {
+describe('testing #sort-descending', function() {
 
   it('should sort an array of objects in descending order by size', () => {
     let input = [{size: 34}, {size: 2}, {size: 12}, {size: 200}];
