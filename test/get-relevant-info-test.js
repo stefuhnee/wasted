@@ -3,7 +3,7 @@
 const expect = require('chai').expect;
 const getRelevantInfo = require('../lib/get-relevant-info');
 
-describe('testing #get-stats', function() {
+describe('testing #get-relevant-info', function() {
   let fileStat = {
     mode: 1,
     path: `${__dirname}/test/data/test.txt`,
@@ -20,7 +20,7 @@ describe('testing #get-stats', function() {
     fileName: 'test.txt',
   }];
 
-  it('should get stats for a file and add the path', () => {
+  it('transform an array of objects to have the desired properties', () => {
     expect(result).to.deep.equal(expectedOutput);
   });
 });
