@@ -1,5 +1,4 @@
 #**Wasted**
-----------
 Wasted is a command line utility to find the largest files in a given directory, wasting space on your hard drive!
 
 #### **Usage:**
