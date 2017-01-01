@@ -1,3 +1,9 @@
+coverage
+html-report
+.env
+db
+data/*
+
 # Logs
 logs
 *.log
