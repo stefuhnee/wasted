@@ -1,6 +1,6 @@
 {
   "name": "wasted",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Command line utility to find the largest files in a given directory",
   "main": "index.js",
   "scripts": {
