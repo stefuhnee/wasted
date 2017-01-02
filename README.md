@@ -4,10 +4,11 @@
 Wasted is a command line utility to find the largest files in a given directory, wasting space on your hard drive!
 
 ## Usage
-To use Wasted, simply clone this repository locally and run it with Node:
+Install Wasted globally with npm and then run it anywhere within the file system:
 
 ```
-node index.js
+npm i -g wasted
+wasted
 ```
 
 ## Options
@@ -29,6 +30,5 @@ node index.js ~/Downloads -r -t
 ```
 
 ### TODOs
-* Create an executable script
 * Allow for more recursive flag options, such as specifying levels
 * Extend functionality of -h flag to work on all operating systems
