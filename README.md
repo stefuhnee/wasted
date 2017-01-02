@@ -15,7 +15,7 @@ wasted
 By default, Wasted will run on the current working directory, but you can specify an absolute or relative path to analyze:
 
 ```
-node index.js ~/Downloads
+wasted ~/Downloads
 ```
 
 #### **Flags**
@@ -26,7 +26,7 @@ By default, Wasted searches non-recursively and ignores directories in the outpu
 * **-r**: recursive search, up to 5 levels deep. Limits output to the 50 largest files and/or directories.
 
 ```
-node index.js ~/Downloads -r -t
+wasted ~/Downloads -r -t
 ```
 
 ### TODOs
