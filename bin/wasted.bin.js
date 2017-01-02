@@ -1,9 +1,15 @@
 #!/usr/bin/env node
-
 'use strict';
 
-const filePath = process.argv[2] && !process.argv[2].startsWith('-') ? process.argv[2] : __dirname;
+let filePath;
+let args;
 
-const args = filePath === process.env.PWD ? process.argv.slice(2) : process.argv.slice(3);
+if (process.argv[2] && !process.argv[2].startsWith('-')) {
+  filePath = `${process.cwd()}/${process.argv[2]}`;
+  args = process.argv.slice(3);
+} else {
+  filePath = process.cwd();
+  args = process.argv.slice(2);
+}
 
 require('../lib/file-finder')(filePath, args);
