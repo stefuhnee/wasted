@@ -15,6 +15,9 @@
     "url": "git+https://github.com/stefuhnee/wasted.git"
   },
   "keywords": [],
+  "bin": {
+    "wasted": "bin/wasted.bin.js"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
